@@ -6,9 +6,7 @@
 
     $veiculoDAO = new veiculoDAO($conexao);
     $edita = $veiculoDAO->consultarId($_GET['id']);
-    //var_dump($edita);
-    //echo $edita['nome'];
-
+    
     ?>
 
 <!DOCTYPE html>
@@ -61,4 +59,5 @@
 
 
 </body>
+
 </html>
